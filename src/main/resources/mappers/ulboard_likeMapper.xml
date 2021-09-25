@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- cartMapper.xml -->
+<!-- 다른 mapper와 중복되지 않는 네임스페이스 기재 -->
+<mapper namespace="webtoon_comment_like">
+
+<insert id="ul_likeInsert">
+insert into ulboard_like(idx,u_idx,m_idx) values
+(
+(select nvl(max(idx)+1,1) from ulboard_like)
+,#{u_idx},#{m_idx})
+</insert>
+
+<select id="ul_likeCheck" resultType="int">
+select count(*) from ulboard_like where u_idx=#{u_idx} and
+ m_idx=#{m_idx}
+</select>
+
+<delete id="ul_likeDelete">
+delete ulboard_like where u_idx=#{u_idx} and m_idx=#{m_idx}
+</delete>
+
+<select id="ul_likeCount" resultType="int">
+select count(*) from ulboard_like where u_idx=#{u_idx}
+</select>
+
+<delete id="ul_likeDeleteAll">
+delete ulboard_like where u_idx=#{u_idx}
+</delete>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- cartMapper.xml -->
+<!-- 다른 mapper와 중복되지 않는 네임스페이스 기재 -->
+<mapper namespace="series">
+	<select id="week" resultType="WebtoonDTO">
+		select * from webtoon where
+		week=#{week} and visibility='Y' order by heart desc
+	</select>
+
+	<select id="seriesList" resultType="Webtoon_EpisodeDTO">
+		select * from webtoon_episode
+		where title=#{title} and visibility='Y' order by no desc
+	</select>
+	
+	<select id="seriesCount" resultType="int">
+	select count(*) from webtoon_episode where title=#{title}
+	</select>
+
+	<select id="webtoonList" resultType="Webtoon_ImageDTO">
+		select * from webtoon_image
+		where title=#{title} and no=#{no} order by image asc
+	</select>
+
+
+	<!-- Webtoon_Star -->
+	<select id="wt_starCheck" resultType="int">
+		select count(*) from
+		webtoon_star where
+		title=#{title} and no=#{no} and m_idx=#{idx}
+	</select>
+
+	<insert id="wt_starInsert">
+		insert into webtoon_star values((select
+		nvl(max(idx)+1,1) from webtoon_star),#{title},#{no},#{idx},#{star})
+	</insert>
+
+	<update id="wt_starSetting">
+		update webtoon_episode set star=(select avg(star)
+		from webtoon_star where
+		title=#{title} and no=#{no}) where
+		title=#{title} and no=#{no}
+	</update>
+
+	<update id="wt_starAllSetting">
+		update webtoon set heart=(select avg(star) from
+		webtoon_star where title=#{title}) where title=#{title}
+	</update>
+	
+	<select id="wt_freeCheck" resultType="String">
+	select cost from webtoon_episode where title = #{title} and no=#{no} and visibility ='Y'
+	</select>
+	
+	<select id="webtoonInfo" resultType="WebtoonDTO">
+		select * from webtoon where
+		title=#{title}
+	</select>
+
+	<select id="webtoonSerch" resultType="WebtoonDTO">
+		select * from webtoon where visibility='Y' and title like '%'|| #{serch} ||'%' 
+	</select>
+	
+	
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

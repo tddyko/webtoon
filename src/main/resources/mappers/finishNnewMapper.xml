@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- cartMapper.xml -->
+<!-- 다른 mapper와 중복되지 않는 네임스페이스 기재 -->
+<mapper namespace="finishNnew">
+	
+	<!-- 완결 -->
+	<select id="wt_finishList" resultType="WebtoonDTO">
+		select * from webtoon where finish=#{finish} and visibility ='Y' order by heart desc
+	</select>
+
+
+
+	<!-- 신작 -->
+	<select id="wt_newList" resultType="WebtoonDTO">
+		select w.* from webtoon w,webtoon_episode e  where w.title=e.title and e.no=1 and sysdate>e.write_date and e.write_date > sysdate-15 and w.visibility ='Y' order by heart desc 
+	</select>
+	
+	<!-- top -->
+	
+	<select id="wt_topList" resultType="WebtoonDTO">
+		select * from webtoon where visibility ='Y' order by heart desc
+	</select>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

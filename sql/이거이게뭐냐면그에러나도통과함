@@ -1,0 +1,6 @@
+//이거 안쓰면 안됌..왜안되는지는..추후에 수정하기로함..(ㅠㅠ)
+		if (errors.hasErrors()) {
+			, BindingResult errors
+			System.out.println("sdfsdf");
+			System.out.println(dto);
+		}

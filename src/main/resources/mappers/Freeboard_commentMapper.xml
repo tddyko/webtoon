@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- cartMapper.xml -->
+<!-- 다른 mapper와 중복되지 않는 네임스페이스 기재 -->
+<mapper namespace="freeboard_comment">
+
+<insert id="fcInsert">
+
+insert into freeboard_comment
+(idx,freeboard_idx,username,email,content) 
+values
+ (
+(select nvl(max(idx)+1,1) from freeboard_comment),#{freeboard_idx},#{username},
+#{email},#{content}
+)
+
+</insert>
+
+<select id="fcCount" resultType="int">
+select count(*) from freeboard_comment where freeboard_idx=#{freeboard_idx}
+</select>
+
+<select id="fcList" resultType="FcDTO">
+select *
+		from (
+		select A.*, rownum rn
+		from (
+		select m.idx,m.email,m.content,m.write_date,m.username
+		from freeboard_comment m
+		where m.freeboard_idx=#{freeboard_idx}
+		order by m.write_date desc
+		)A
+		)
+		where rn between #{start} and #{end}
+
+</select>
+
+<delete id="fcDelete">
+delete freeboard_comment where idx=#{idx}
+</delete>
+
+<delete id="fcDeleteAll">
+delete freeboard_comment where freeboard_idx=#{idx}
+</delete>
+
+<select id="replyList" resultType="int">
+select idx from freeboard_comment where freeboard_idx=#{idx}
+</select>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

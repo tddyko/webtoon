@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- typeAlias type="전체경로" alias="별칭" -->
+<!-- 	<typeAliases> -->
+<!-- 		<typeAlias type="com.example.webtoon.model.member.dto.MemberDTO" -->
+<!-- 			alias="memberDto" /> -->
+<!-- 	</typeAliases> -->
+
+<typeAliases>
+
+		<typeAlias type="com.example.webtoon.model.member.dto.MemberDTO"
+			alias="MemberDTO" />
+			
+			
+			
+			<typeAlias type="com.example.webtoon.model.main_advertising.dto.Main_AdvertisingDTO"
+			alias="main_advertisingDto" />
+			
+			<typeAlias type="com.example.webtoon.model.freeboard.dto.FreeboardDTO" alias="FreeboardDTO"/>
+	
+	<typeAlias type="com.example.webtoon.model.freeboard_comment.dto.FcDTO" alias="FcDTO"/>
+	
+	<typeAlias type="com.example.webtoon.model.freeboard_comment_reply.dto.Fc_replyDTO" alias="Fc_replyDTO"/>
+	
+	<typeAlias type="com.example.webtoon.model.qnaboard.dto.QnaboardDTO" alias="QnaboardDTO"/>
+	
+	<typeAlias type="com.example.webtoon.model.webtoon.dto.WebtoonDTO"
+			alias="WebtoonDTO" />
+
+		<typeAlias
+			type="com.example.webtoon.model.webtoon_Episode.dto.Webtoon_EpisodeDTO"
+			alias="Webtoon_EpisodeDTO" />
+
+		<typeAlias
+			type="com.example.webtoon.model.webtoon_image.dto.Webtoon_ImageDTO"
+			alias="Webtoon_ImageDTO" />
+
+		<typeAlias type="com.example.webtoon.model.admin.dto.AdminDTO"
+			alias="AdminDTO" />
+			
+				<typeAlias type="com.example.webtoon.model.admin.dto.AdminDTO"
+			alias="AdminDTO" />
+			
+			<typeAlias type="com.example.webtoon.model.webtoon_comment.dto.Webtoon_commentDTO" alias="Webtoon_commentDTO"/>
+			
+	<typeAlias type="com.example.webtoon.model.ulboard.dto.UlboardDTO"
+			alias="UlboardDTO" />
+	<typeAlias type="com.example.webtoon.model.coupon.dto.CouponDTO"
+			alias="CouponDTO" />
+	
+		<typeAlias type="com.example.webtoon.model.webtoon_star.dto.Webtoon_StarDTO"
+			alias="Webtoon_StarDto" />
+	
+	<typeAlias type="com.example.webtoon.model.ulboard_comment.dto.UcDTO" alias="UcDTO"/>
+	
+	<typeAlias type="com.example.webtoon.model.mylist.dto.MyListDTO" alias="MyListDTO"/>
+	
+<typeAlias type="com.example.webtoon.model.favorite_wt.dto.Favorite_wtDTO" alias="Favorite_wtDTO"/>
+	
+	</typeAliases>
+	
+	
+
+</configuration>
+
+
+
+
+
+
+
+
+

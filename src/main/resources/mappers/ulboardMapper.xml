@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- cartMapper.xml -->
+<!-- 다른 mapper와 중복되지 않는 네임스페이스 기재 -->
+<mapper namespace="ulboard">
+	<!-- 게시글 리스트 -->
+	<select id="ulboardList" resultType="UlboardDTO">
+		select *
+		from (
+		select A.*, rownum rn
+		from (
+		select u.idx,u.title,m.username,u.viewcount,u.content,u.write_date,m.email,u.img_url,u.heart
+		from ulboard u,member_t m
+		where u.username=m.username
+		order by heart desc , write_date desc
+		)A
+		)
+		where rn between #{start} and #{end}
+	</select>
+	
+	<!-- 게시글 보기 -->
+	<select id="ulboardView" resultType="UlboardDTO">
+		select * from ulboard
+		where  idx=#{idx}
+	</select>
+	
+	<!-- 게시글 조회수 -->
+	<select id="ulboardcount" resultType="int">
+		select count(*) from ulboard
+	</select>
+	<update id="ulboardhitUp">
+		update ulboard set viewcount=viewcount+1 where idx=#{idx}
+	</update>
+	
+	<!-- 게시글 쓰기 -->
+	<insert id="ulboardInsert">
+		insert into ulboard(idx,title,username,content,email,img_url) values
+		((select nvl(max(idx)+1,1) from
+		ulboard),#{title},#{username},#{content},#{email},#{img_url})
+	</insert>
+	
+	<!-- 게시글 수정 -->
+	<update id="ulboardUpdate">
+		update ulboard set title=#{title},content=#{content},img_url=#{img_url} where idx=#{idx}
+	</update>
+	
+	<!-- 게시글 삭제 -->
+	<delete id="ulboardDelete">
+		delete from ulboard where idx=#{idx}
+	</delete>
+	<!-- 게시글 삭제 -->
+	<select id="ul_img" resultType="String">
+	select img_url from ulboard where idx=#{idx}
+	</select>
+	
+	<update id="ulheartUp">
+	update ulboard set heart=heart+1 where idx=#{idx}
+	</update>
+	
+		<update id="ulheartDown">
+	update ulboard set heart=heart-1 where idx=#{idx}
+	</update>
+	
+	
+</mapper>

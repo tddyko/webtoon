@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- cartMapper.xml -->
+<!-- 다른 mapper와 중복되지 않는 네임스페이스 기재 -->
+<mapper namespace="Webtoon_comment">
+
+<select id="wcList" resultType="Webtoon_commentDTO">
+
+select *
+		from (
+		select A.*, rownum rn
+		from (
+		select c.*
+		from webtoon_comment c
+		where c.title=#{title} and c.no=#{no}
+		order by heart desc, write_date desc
+		)A
+		)
+		where rn between #{start} and #{end}
+</select>
+
+<select id="wcCount" resultType="int">
+select count(*) from webtoon_comment where title=#{title} and no=#{no}
+</select>
+
+<insert id="wcInsert">
+insert into webtoon_comment(idx,title,no,username,email,content) values(
+(select nvl(max(idx)+1,1) from webtoon_comment),#{title},#{no},#{username},#{email},#{content}
+)
+</insert>
+
+<delete id="wcDelete">
+delete webtoon_comment where idx=#{idx}
+</delete>
+
+<update id="wcHeartUp">
+update webtoon_comment set heart=heart+1 where idx=#{c_idx}
+</update>
+
+<update id="wcHeartDown">
+update webtoon_comment set heart=heart-1 where idx=#{c_idx}
+</update>
+
+<update id="wcHateUp">
+update webtoon_comment set hate=hate+1 where idx=#{c_idx}
+</update>
+
+<update id="wcHateDown">
+update webtoon_comment set hate=hate-1 where idx=#{c_idx}
+</update>
+
+
+
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

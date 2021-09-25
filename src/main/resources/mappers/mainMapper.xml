@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- cartMapper.xml -->
+<!-- 다른 mapper와 중복되지 않는 네임스페이스 기재 -->
+<mapper namespace="main">
+
+<select id="main_ad_img" resultType="String">
+select ad_image from main_advertising where idx=#{idx}
+</select>
+
+	<select id="main_ad_list" resultType="Main_AdvertisingDTO">
+
+		select * from
+		main_advertising where sysdate >= ad_start and ad_end > sysdate-1
+
+	</select>
+
+	<select id="main_ad_listAll" resultType="Main_AdvertisingDTO">
+		select * from
+		main_advertising
+	</select>
+
+	<select id="main_ad_update" resultType="Main_AdvertisingDTO">
+		select * from
+		main_advertising where idx=#{idx}
+	</select>
+
+	<update id="main_ad_updateConfirm">
+		update main_advertising set
+		title=#{title},
+		type=#{type}, fee=#{fee}, ad_start=#{ad_start}, ad_end=#{ad_end}
+		,ad_image=#{ad_image},summary=#{summary}
+		where idx=#{idx}
+	</update>
+
+	<delete id="main_ad_delete">
+		delete from main_advertising where idx=#{idx}
+	</delete>
+
+	<insert id="main_ad_insert">
+		insert into main_advertising values((select
+		nvl(max(idx)+1,1) from
+		main_advertising),#{title},#{type},#{fee},#{ad_start},#{ad_end},#{ad_image},#{summary})
+	</insert>
+	
+	
+	<!-- 메인 인기순 -->
+
+	<select id="wt_heartList" resultType="WebtoonDTO">
+		select * from  webtoon where visibility='Y' order by heart desc
+	</select>
+	
+	<!-- 장르별 인기차트 -->
+	
+	<select id="wt_category" resultType="WebtoonDTO">
+		select * from webtoon where visibility='Y' and category=#{catecory} order by heart desc
+	</select>
+	
+	<select id="getFeeAvg" resultType="double">
+		select nvl(avg(fee),0) from main_advertising where ad_start>=#{start_day} and #{end_day} > ad_start
+	</select>
+	
+	<select id="getFeeTotal" resultType="double">
+		select nvl(sum(fee),0) from main_advertising where ad_start>=#{start_day} and #{end_day} > ad_start
+	</select>
+	
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

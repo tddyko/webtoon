@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- cartMapper.xml -->
+<!-- 다른 mapper와 중복되지 않는 네임스페이스 기재 -->
+<mapper namespace="MyList">
+
+
+	<select id="MyListCheck" resultType="int">
+		select count(*) from mylist where m_idx=#{m_idx} and title=#{title}
+		and no=#{no}
+	</select>
+
+	<insert id="buyWebtoon">
+		insert into mylist(idx,m_idx,title,no,coin)
+		values
+		((select nvl(max(idx)+1,1) from mylist),
+		#{m_idx},#{title},#{no},#{coin}
+		)
+	</insert>
+
+	<select id="myList" resultType="MyListDTO">
+		select * from mylist where m_idx = #{m_idx}
+	</select>
+
+	<select id="favorite_wtCheck" resultType="int">
+		select count(*) from favorite_wt where w_title=#{title} and m_idx=#{idx}
+	</select>
+
+
+	<insert id="favorite_wtPlus">
+		insert into favorite_wt values((select nvl(max(idx)+1,1) from favorite_wt
+		),#{title},#{idx},sysdate)
+	</insert>
+
+	<select id="favorite_wtList" resultType="Favorite_wtDTO">
+		select * from favorite_wt where m_idx=#{idx}
+	</select>
+	
+	<delete id="favoriteDelete">
+		delete favorite_wt where idx=#{idx}
+	</delete>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

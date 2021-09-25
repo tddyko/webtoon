@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- cartMapper.xml -->
+<!-- 다른 mapper와 중복되지 않는 네임스페이스 기재 -->
+<mapper namespace="freeboard">
+	<update id="freeboardUpdate">
+		update freeboard set content=#{content} where
+		idx=#{idx}
+	</update>
+
+	<delete id="freeboardDelete">
+
+		delete from freeboard where idx=#{idx}
+
+	</delete>
+
+	<select id="freeboardcount" resultType="int">
+		select count(*) from freeboard
+	</select>
+
+
+	<select id="freeboardList" resultType="FreeboardDTO">
+		select idx,title,username,viewcount,content,write_date,email
+		from (
+		select A.*, rownum rn
+		from (
+		select b.idx,b.title,m.username,b.viewcount,b.content,b.write_date,m.email
+		from freeboard b,member_t m
+		where b.username=m.username
+		order by idx desc
+		)A
+		)
+		where rn between #{start} and #{end}
+	</select>
+
+	<insert id="freeboardInsert">
+		insert into freeboard(idx,title,username,content,email) values
+		((select nvl(max(idx)+1,1) from
+		freeboard),#{title},#{username},#{content},#{email})
+	</insert>
+
+	<select id="freeboardView" resultType="FreeboardDTO">
+		select * from freeboard
+		where idx=#{idx}
+	</select>
+
+	<update id="freeboardhitUp">
+		update freeboard set viewcount=viewcount+1 where idx=#{idx}
+	</update>
+
+	<select id="freeboardSearchTitle" resultType="FreeboardDTO">
+	select * from freeboard where title like '%' || #{title} || '%'	order by idx desc
+	</select>
+	<select id="freeboardSearchEmail" resultType="FreeboardDTO">
+	select * from freeboard where email=#{email} order by idx desc
+	</select>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

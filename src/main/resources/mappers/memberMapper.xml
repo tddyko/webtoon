@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- cartMapper.xml -->
+<!-- 다른 mapper와 중복되지 않는 네임스페이스 기재 -->
+<mapper namespace="member">
+
+<update id="informationUpdate">
+update member_t set 
+username=#{username}, email=#{email}, passwd=#{passwd}, phone=#{phone}
+where idx=#{idx}
+</update>
+
+<select id="getPasswd" resultType="MemberDTO">
+select passwd from member_t
+where passwd=#{passwd}
+</select>
+
+<insert id="memberInsert">
+insert into member_t(idx,username,email,passwd,phone) values (
+(select nvl(max(idx)+1,1) from member_t),#{username},#{email},#{passwd},#{phone}
+)
+</insert>
+
+<select id="loginCheck" resultType="MemberDTO">
+select * from member_t where email=#{email} and passwd=#{passwd}
+</select>
+
+<select id="emailCheck" resultType="int">
+select count(*) from member_t where email=#{email}
+</select>
+
+<select id="idfind" resultType="String">
+select email from member_t where username=#{username} and phone=#{phone}
+</select>
+
+<select id="pwfind" resultType="int">
+<!-- select passwd from member_t where email=#{email} and phone=#{phone} -->
+select count(*) from member_t where 
+email=#{email} and phone=#{phone}
+</select>
+
+<update id="changepw">
+update member_t
+set passwd = #{passwd}
+where email=#{email}
+</update>
+
+<select id="memberList" resultType="MemberDTO">
+select * from member_t order by reg_date desc
+</select>
+
+
+<update id="coinUp">
+update member_t set coin=coin+#{coin} where idx=#{idx}
+</update>
+
+<update id="coinSet">
+update member_t set coin=#{coin} where idx=#{idx}
+</update>
+
+<select id="coinhave" resultType="int">
+select coin from member_t where idx=#{idx}
+</select>
+
+<update id="coinDown">
+update member_t set coin=coin-#{coin} where idx=#{idx}
+</update>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

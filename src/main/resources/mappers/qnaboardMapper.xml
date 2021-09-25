@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- cartMapper.xml -->
+<!-- 다른 mapper와 중복되지 않는 네임스페이스 기재 -->
+<mapper namespace="qnaboard">
+	<select id="qnaboardList" resultType="QnaboardDTO">
+		select * from qnaboard
+	</select>
+
+	<select id="qnaboardCount">
+		select count(*) from qnaboard
+	</select>
+
+	<insert id="qnaboardInsert">
+		insert into qnaboard(idx,category,question,answer)
+		values ( (select nvl(max(idx)+1,1) from qnaboard)
+		,#{category},#{question},#{answer})
+	</insert>
+	
+	<delete id="qnaboardDelete">
+	delete from qnaboard where idx=#{idx}
+	</delete>
+	
+	<select id="qnaboardView" resultType="QnaboardDTO">
+		select * from qnaboard where idx=#{idx}
+	</select>
+	
+	<update id="qnaboardUpdate">
+	update qnaboard set idx=#{idx}, category=#{category}, question=#{question},
+	answer=#{answer} where idx=#{idx}
+	</update>
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

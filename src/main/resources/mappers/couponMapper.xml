@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- cartMapper.xml -->
+<!-- 다른 mapper와 중복되지 않는 네임스페이스 기재 -->
+<mapper namespace="coupon">
+
+<insert id="couponInsert">
+insert into coupon values (
+(select nvl(max(idx)+1,1) from coupon),
+#{coupon},#{coin},sysdate,#{end_date}
+)
+</insert>
+
+<select id="couponList" resultType="CouponDTO">
+select * from coupon order by end_date desc
+</select>
+
+<select id="couponCheck" resultType="int">
+select count(*) from coupon where coupon=#{coupon} and end_date>=sysdate
+</select>
+
+<delete id="couponDelete">
+delete from coupon where idx=#{idx}
+</delete>
+
+<update id="couponUpdate">
+update coupon set end_date=#{end_date} , coin = #{coin} where idx = #{idx}
+</update>
+
+<select id="couponDTO" resultType="CouponDTO">
+select * from coupon where coupon = #{coupon}
+</select>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.10" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.example.webtoon.controller.finishNnew.finishNnewController" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/finishNnew/finishNnewController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="193" x="8644" y="-237"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.example.webtoon.controller.qnaboard.QnaboardController" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/qnaboard/QnaboardController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2181" y="1092"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.example.webtoon.service.admin.AdminServiceImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/admin/AdminServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5588" y="-50"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="com.example.webtoon.service.webtoon_comment_like.WcLikeService" 
+    project="webtoon" file="/webtoon/src/main/java/com/example/webtoon/service/webtoon_comment_like/WcLikeService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11021" y="95"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="com.example.webtoon.model.ulboard_like.dao.Ul_likeDAOImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/ulboard_like/dao/Ul_likeDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1593" y="2410"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.example.webtoon.util.page.PageDAO" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/util/page/PageDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="711" width="141" x="6" y="-237"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.example.webtoon.util.page.C_pageDAO" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/util/page/C_pageDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="729" width="141" x="187" y="-237"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.example.webtoon.controller.footer.AccesstermsController" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/footer/AccesstermsController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="172" x="368" y="-237"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="com.example.webtoon.model.admin.dao.AdminDAO" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/admin/dao/AdminDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5380" y="-78"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="com.example.webtoon.model.member.dao.MemberDAOImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/member/dao/MemberDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9979" y="621"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="11" language="java" name="com.example.webtoon.model.webtoon_comment_like.dao.WcLikeDAO" 
+    project="webtoon" file="/webtoon/src/main/java/com/example/webtoon/model/webtoon_comment_like/dao/WcLikeDAO.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10691" y="82"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="12" language="java" name="com.example.webtoon.service.freeboard.FreeboardService" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/freeboard/FreeboardService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="443" y="4723"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="13" language="java" name="com.example.webtoon.controller.freeboard_comment.Fc_Controller" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/freeboard_comment/Fc_Controller.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="474" y="3887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.example.webtoon.controller.admin_board.Admin_boardController" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/admin_board/Admin_boardController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1196" y="1542"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.example.webtoon.service.webtoon_Episode.Webtoon_EpisodeServiceImpl" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/webtoon_Episode/Webtoon_EpisodeServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="12252" y="377"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="16" language="java" name="com.example.webtoon.service.mylist.MyListService" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/mylist/MyListService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11024" y="1074"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="17" language="java" name="com.example.webtoon.model.webtoon_comment_hate.dao.WcHateDAOImpl" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/webtoon_comment_hate/dao/WcHateDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9666" y="-135"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="18" language="java" name="com.example.webtoon.model.webtoon_Episode.dao.Webtoon_EpisodeDAO" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/webtoon_Episode/dao/Webtoon_EpisodeDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10902" y="1489"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="19" language="java" name="com.example.webtoon.service.freeboard_comment_reply.Fc_replyService" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/freeboard_comment_reply/Fc_replyService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1667" y="3923"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="20" language="java" name="com.example.webtoon.model.ulboard_comment.dao.UcDAOImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/ulboard_comment/dao/UcDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4412" y="90"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="21" language="java" name="com.example.webtoon.model.webtoon_star.dao.Webtoon_StarDAO" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/webtoon_star/dao/Webtoon_StarDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="12356" y="905"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="22" language="java" name="com.example.webtoon.model.favorite_wt.dao.Favorite_wtDAO" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/favorite_wt/dao/Favorite_wtDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="12618" y="597"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="23" language="java" name="com.example.webtoon.controller.webtoon_comment_like.WcLikeController" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/webtoon_comment_like/WcLikeController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11148" y="-180"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="24" language="java" name="com.example.webtoon.model.freeboard.dao.FreeboardDAO" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/freeboard/dao/FreeboardDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1074" y="4762"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="25" language="java" name="com.example.webtoon.service.webtoon.WebtoonServiceImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/webtoon/WebtoonServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8512" y="-84"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.example.webtoon.service.qnaboard.QnaboardServiceImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/qnaboard/QnaboardServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1688" y="780"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.example.webtoon.service.certification.CertiServiceImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/certification/CertiServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10070" y="314"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="28" language="java" name="com.example.webtoon.model.freeboard_comment.dao.FcDAO" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/freeboard_comment/dao/FcDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1109" y="4435"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="29" language="java" name="com.example.webtoon.service.main_advertising.Main_AdvertisingService" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/main_advertising/Main_AdvertisingService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6480" y="-102"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="30" language="java" name="com.example.webtoon.model.webtoon_comment_hate.dao.WcHateDAO" 
+    project="webtoon" file="/webtoon/src/main/java/com/example/webtoon/model/webtoon_comment_hate/dao/WcHateDAO.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10023" y="140"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="31" language="java" name="com.example.webtoon.service.member.MemberService" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/member/MemberService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11275" y="1164"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="32" language="java" name="com.example.webtoon.controller.freeboard_comment_reply.Fc_replyController" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/freeboard_comment_reply/Fc_replyController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1990" y="3914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="com.example.webtoon.controller.adminWt_Episode.Wt_EpisodeController" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/adminWt_Episode/Wt_EpisodeController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10374" y="341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="34" language="java" name="com.example.webtoon.service.ulboard.UlboardService" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/ulboard/UlboardService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="848" y="1965"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="35" language="java" name="com.example.webtoon.service.webtoon_comment.Webtoon_commentServiceImpl" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/webtoon_comment/Webtoon_commentServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11451" y="-144"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="com.example.webtoon.util.mail.SMTPAuthenticator" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/util/mail/SMTPAuthenticator.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="290" x="580" y="-237"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="37" language="java" name="com.example.webtoon.model.ulboard.dao.UlboardDAO" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/ulboard/dao/UlboardDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1265" y="2173"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="38" language="java" name="com.example.webtoon.service.ulboard_like.Ul_likeService" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/ulboard_like/Ul_likeService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1840" y="2280"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="39" language="java" name="com.example.webtoon.model.webtoon.dao.WebtoonDAO" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/webtoon/dao/WebtoonDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8226" y="-94"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="40" language="java" name="com.example.webtoon.service.ulboard_comment.UcServiceImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/ulboard_comment/UcServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4373" y="261"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="com.example.webtoon.service.freeboard_comment.FcServiceImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/freeboard_comment/FcServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="723" y="4088"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="com.example.webtoon.model.freeboard_comment_reply.dao.Fc_replyDAOImpl" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/freeboard_comment_reply/dao/Fc_replyDAOImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1127" y="4209"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="com.example.webtoon.controller.ulboard_like.Ul_likeController" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/ulboard_like/Ul_likeController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2052" y="2278"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="com.example.webtoon.controller.HomeController" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/HomeController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8132" y="987"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="com.example.webtoon.controller.member.MemberController" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/member/MemberController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11352" y="467"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="46" language="java" name="com.example.webtoon.service.coupon.CouponService" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/coupon/CouponService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="12029" y="1101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="47" language="java" name="com.example.webtoon.service.main_advertising.Main_AdvertisingServiceImple" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/main_advertising/Main_AdvertisingServiceImple.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6835" y="-72"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="com.example.webtoon.service.freeboard.FreeboardServiceImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/freeboard/FreeboardServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="727" y="4555"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="com.example.webtoon.model.ulboard.dao.UlboardDAOImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/ulboard/dao/UlboardDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1648" y="1921"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="com.example.webtoon.util.parser.HtmlParser" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/util/parser/HtmlParser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="178" x="910" y="-237"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="51" language="java" name="com.example.webtoon.service.webtoon_Episode.Webtoon_EpisodeService" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/webtoon_Episode/Webtoon_EpisodeService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10521" y="900"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="52" language="java" name="com.example.webtoon.model.webtoon_comment.dao.Webtoon_commentDAOImpl" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/webtoon_comment/dao/Webtoon_commentDAOImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9986" y="-99"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="53" language="java" name="com.example.webtoon.service.certification.CertiService" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/certification/CertiService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10563" y="679"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="54" language="java" name="com.example.webtoon.model.qnaboard.dao.QnaboardDAOImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/qnaboard/dao/QnaboardDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1688" y="1053"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="55" language="java" name="com.example.webtoon.model.webtoon_comment.dao.Webtoon_commentDAO" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/webtoon_comment/dao/Webtoon_commentDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10366" y="80"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="56" language="java" name="com.example.webtoon.controller.freeboard.FreeboardController" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/freeboard/FreeboardController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="439" y="4396"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="com.example.webtoon.model.webtoon.dao.WebtoonDAOImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/webtoon/dao/WebtoonDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7912" y="-77"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="58" language="java" name="com.example.webtoon.model.coupon.dao.CouponDAO" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/coupon/dao/CouponDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="12628" y="91"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="59" language="java" name="com.example.webtoon.model.freeboard.dao.FreeboardDAOImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/freeboard/dao/FreeboardDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1553" y="4759"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="60" language="java" name="com.example.webtoon.service.ulboard.UlboardServiceImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/ulboard/UlboardServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="855" y="2230"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="61" language="java" name="com.example.webtoon.model.mylist.dao.MyListDAO" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/mylist/dao/MyListDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="12364" y="676"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="62" language="java" name="com.example.webtoon.service.mylist.MyListServiceImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/mylist/MyListServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11681" y="314"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="63" language="java" name="com.example.webtoon.service.webtoon_comment.Webtoon_commentService" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/webtoon_comment/Webtoon_commentService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11681" y="62"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="64" language="java" name="com.example.webtoon.service.webtoon.WebtoonService" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/webtoon/WebtoonService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="297" width="235" x="8644" y="532"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="65" language="java" name="com.example.webtoon.service.admin.AdminService" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/admin/AdminService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5794" y="-39"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="66" language="java" name="com.example.webtoon.service.qnaboard.QnaboardService" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/qnaboard/QnaboardService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2160" y="1364"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="67" language="java" name="com.example.webtoon.controller.adminMain.AdminController" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/adminMain/AdminController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6089" y="-14"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="68" language="java" name="com.example.webtoon.model.webtoon_star.dao.Webtoon_StarDAOImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/webtoon_star/dao/Webtoon_StarDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="12632" y="923"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="69" language="java" name="com.example.webtoon.service.webtoon_comment_like.WcLikeServiceImpl" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/webtoon_comment_like/WcLikeServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10578" y="-135"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="70" language="java" name="com.example.webtoon.service.webtoon_Image.Webtoon_ImageService" 
+    project="webtoon" file="/webtoon/src/main/java/com/example/webtoon/service/webtoon_Image/Webtoon_ImageService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11566" y="1453"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="71" language="java" name="com.example.webtoon.model.webtoon_image.dao.Webtoon_ImageDAOImpl" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/webtoon_image/dao/Webtoon_ImageDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11234" y="702"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="72" language="java" name="com.example.webtoon.service.freeboard_comment.FcService" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/freeboard_comment/FcService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="430" y="4092"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="73" language="java" name="com.example.webtoon.controller.adminWebtoon.WebtoonController" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/adminWebtoon/WebtoonController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="207" width="303" x="8877" y="-237"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="74" language="java" name="com.example.webtoon.controller.admin_page.Admin_PageController" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/admin_page/Admin_PageController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11947" y="359"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="75" language="java" name="com.example.webtoon.model.webtoon_Episode.dao.Webtoon_EpisodeDAOImpl" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/webtoon_Episode/dao/Webtoon_EpisodeDAOImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10902" y="738"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="76" language="java" name="com.example.webtoon.model.freeboard_comment_reply.dao.Fc_replyDAO" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/freeboard_comment_reply/dao/Fc_replyDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1071" y="3917"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="77" language="java" name="com.example.webtoon.model.ulboard_like.dao.Ul_likeDAO" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/ulboard_like/dao/Ul_likeDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1230" y="2403"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="78" language="java" name="com.example.webtoon.model.member.dao.MemberDAO" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/member/dao/MemberDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10246" y="684"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="79" language="java" name="com.example.webtoon.model.coupon.dao.CouponDAOImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/coupon/dao/CouponDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="12608" y="350"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="80" language="java" name="com.example.webtoon.util.mail.MailTest" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/util/mail/MailTest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="195" x="1128" y="-237"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="81" language="java" name="com.example.webtoon.service.favorite_wt.Favorite_wtService" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/favorite_wt/Favorite_wtService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11547" y="1083"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="82" language="java" name="com.example.webtoon.service.webtoon_Image.Webtoon_ImageServiceImpl" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/webtoon_Image/Webtoon_ImageServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11566" y="693"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="83" language="java" name="com.example.webtoon.controller.webtoon_comment.Webtoon_commentController" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/webtoon_comment/Webtoon_commentController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11793" y="-153"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="84" language="java" name="com.example.webtoon.service.webtoon_star.Webtoon_StarService" 
+    project="webtoon" file="/webtoon/src/main/java/com/example/webtoon/service/webtoon_star/Webtoon_StarService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11799" y="1083"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="85" language="java" name="com.example.webtoon.model.ulboard_comment.dao.UcDAO" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/ulboard_comment/dao/UcDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4410" y="410"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="86" language="java" name="com.example.webtoon.controller.ulboard_comment.Uc_Controller" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/ulboard_comment/Uc_Controller.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4397" y="577"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="87" language="java" name="com.example.webtoon.service.ulboard_comment.UcService" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/ulboard_comment/UcService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4518" y="683"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="88" language="java" name="com.example.webtoon.service.webtoon_comment_hate.WcHateServiceImpl" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/webtoon_comment_hate/WcHateServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10299" y="-135"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="89" language="java" name="com.example.webtoon.service.webtoon_comment_hate.WcHateService" 
+    project="webtoon" file="/webtoon/src/main/java/com/example/webtoon/service/webtoon_comment_hate/WcHateService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11350" y="101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="90" language="java" name="com.example.webtoon.model.certification.dao.CertiDAOImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/certification/dao/CertiDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9679" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="91" language="java" name="com.example.webtoon.model.mylist.dao.MyListDAOImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/mylist/dao/MyListDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="12355" y="-163"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="92" language="java" name="com.example.webtoon.model.favorite_wt.dao.Favorite_wtDAOImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/favorite_wt/dao/Favorite_wtDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="12613" y="-114"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="93" language="java" name="com.example.webtoon.controller.adminWt_Image.Wt_ImageController" 
+    project="webtoon" file="/webtoon/src/main/java/com/example/webtoon/controller/adminWt_Image/Wt_ImageController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11920" y="684"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="94" language="java" name="com.example.webtoon.util.UUID.Certification" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/util/UUID/Certification.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="145" x="1363" y="-237"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="95" language="java" name="com.example.webtoon.controller.series.SeriesController" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/series/SeriesController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10990" y="371"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="96" language="java" name="com.example.webtoon.model.webtoon_comment_like.dao.WcLikeDAOImpl" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/webtoon_comment_like/dao/WcLikeDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10861" y="-135"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="97" language="java" name="com.example.webtoon.controller.footer.PersonaldataController" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/footer/PersonaldataController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="172" x="1548" y="-237"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="98" language="java" name="com.example.webtoon.util.path.FilePath" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/util/path/FilePath.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="175" x="1760" y="-237"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="99" language="java" name="com.example.webtoon.controller.webtoon_comment_hate.WcHateController" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/webtoon_comment_hate/WcHateController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9652" y="264"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="100" language="java" name="com.example.webtoon.service.coupon.CouponServiceImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/coupon/CouponServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="12289" y="109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="101" language="java" name="com.example.webtoon.service.ulboard_like.Ul_likeServiceImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/ulboard_like/Ul_likeServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1614" y="2209"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="102" language="java" name="com.example.webtoon.model.qnaboard.dao.QnaboardDAO" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/qnaboard/dao/QnaboardDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1968" y="922"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="103" language="java" name="com.example.webtoon.model.admin.dao.AdminDAOImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/admin/dao/AdminDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5172" y="-64"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="104" language="java" name="com.example.webtoon.service.freeboard_comment_reply.Fc_replyServiceImpl" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/freeboard_comment_reply/Fc_replyServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1370" y="3917"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="105" language="java" name="com.example.webtoon.controller.ulboard.UlboardController" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/controller/ulboard/UlboardController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1249" y="1826"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="106" language="java" name="com.example.webtoon.service.member.MemberServiceImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/member/MemberServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10700" y="404"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="107" language="java" name="com.example.webtoon.model.webtoon_image.dao.Webtoon_ImageDAO" 
+    project="webtoon" file="/webtoon/src/main/java/com/example/webtoon/model/webtoon_image/dao/Webtoon_ImageDAO.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11234" y="1453"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="108" language="java" name="com.example.webtoon.util.page.w_pageDAO" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/util/page/w_pageDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1250" y="126"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="109" language="java" name="com.example.webtoon.service.favorite_wt.Favorite_wtServiceImpl" 
+    project="webtoon" file="/webtoon/src/main/java/com/example/webtoon/service/favorite_wt/Favorite_wtServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11996" y="8"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="110" language="java" name="com.example.webtoon.model.certification.dao.CertiDAO" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/certification/dao/CertiDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9905" y="854"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="111" language="java" name="com.example.webtoon.service.webtoon_star.Webtoon_StarServiceImpl" 
+    project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/service/webtoon_star/Webtoon_StarServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="12148" y="-163"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="112" language="java" name="com.example.webtoon.model.freeboard_comment.dao.FcDAOImpl" project="webtoon" 
+    file="/webtoon/src/main/java/com/example/webtoon/model/freeboard_comment/dao/FcDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1401" y="4429"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="113">    
+    <end type="SOURCE" refId="60"/>    
+    <end type="TARGET" refId="34"/>  
+  </realization>  
+  <realization id="114">    
+    <end type="SOURCE" refId="104"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <realization id="115">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="65"/>  
+  </realization>  
+  <realization id="116">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="87"/>  
+  </realization>  
+  <realization id="117">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="51"/>  
+  </realization>  
+  <realization id="118">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="78"/>  
+  </realization>  
+  <association id="119">    
+    <end type="SOURCE" refId="83" navigable="false">      
+      <attribute id="120" name="wcl_Service"/>      
+      <multiplicity id="121" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="122">    
+    <end type="SOURCE" refId="56" navigable="false">      
+      <attribute id="123" name="fcservice"/>      
+      <multiplicity id="124" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="72" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="125">    
+    <end type="SOURCE" refId="88"/>    
+    <end type="TARGET" refId="89"/>  
+  </realization>  
+  <association id="126">    
+    <end type="SOURCE" refId="69" navigable="false">      
+      <attribute id="127" name="c_dao"/>      
+      <multiplicity id="128" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="129">    
+    <end type="SOURCE" refId="95" navigable="false">      
+      <attribute id="130" name="mylist_Service"/>      
+      <multiplicity id="131" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="132">    
+    <end type="SOURCE" refId="101"/>    
+    <end type="TARGET" refId="38"/>  
+  </realization>  
+  <realization id="133">    
+    <end type="SOURCE" refId="109"/>    
+    <end type="TARGET" refId="81"/>  
+  </realization>  
+  <association id="134">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="135" name="wt_epi_service"/>      
+      <multiplicity id="136" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="137">    
+    <end type="SOURCE" refId="79"/>    
+    <end type="TARGET" refId="58"/>  
+  </realization>  
+  <association id="138">    
+    <end type="SOURCE" refId="48" navigable="false">      
+      <attribute id="139" name="dao"/>      
+      <multiplicity id="140" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="141">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="55"/>  
+  </realization>  
+  <association id="142">    
+    <end type="SOURCE" refId="88" navigable="false">      
+      <attribute id="143" name="dao"/>      
+      <multiplicity id="144" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="145">    
+    <end type="SOURCE" refId="95" navigable="false">      
+      <attribute id="146" name="service"/>      
+      <multiplicity id="147" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="64" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="148">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="149" name="service"/>      
+      <multiplicity id="150" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="64" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="151">    
+    <end type="SOURCE" refId="88" navigable="false">      
+      <attribute id="152" name="c_dao"/>      
+      <multiplicity id="153" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="154">    
+    <end type="SOURCE" refId="109" navigable="false">      
+      <attribute id="155" name="favoriteDao"/>      
+      <multiplicity id="156" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="157">    
+    <end type="SOURCE" refId="111"/>    
+    <end type="TARGET" refId="84"/>  
+  </realization>  
+  <realization id="158">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <association id="159">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="160" name="qnaboardDao"/>      
+      <multiplicity id="161" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="102" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="162">    
+    <end type="SOURCE" refId="95" navigable="false">      
+      <attribute id="163" name="wc_service"/>      
+      <multiplicity id="164" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="63" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="165">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="166" name="favorite_wtService"/>      
+      <multiplicity id="167" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="168">    
+    <end type="SOURCE" refId="90"/>    
+    <end type="TARGET" refId="110"/>  
+  </realization>  
+  <association id="169">    
+    <end type="SOURCE" refId="95" navigable="false">      
+      <attribute id="170" name="serviceI"/>      
+      <multiplicity id="171" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="70" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="172">    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="173" name="replydao"/>      
+      <multiplicity id="174" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="76" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="175">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="176" name="memberService"/>      
+      <multiplicity id="177" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="178">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="179" name="myListService"/>      
+      <multiplicity id="180" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="181">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="182" name="certidao"/>      
+      <multiplicity id="183" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="110" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="184">    
+    <end type="SOURCE" refId="74" navigable="false">      
+      <attribute id="185" name="coupon_Service"/>      
+      <multiplicity id="186" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="46" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="187">    
+    <end type="SOURCE" refId="95" navigable="false">      
+      <attribute id="188" name="wt_starService"/>      
+      <multiplicity id="189" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="84" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="190">    
+    <end type="SOURCE" refId="48"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <association id="191">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="192" name="dao"/>      
+      <multiplicity id="193" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="194">    
+    <end type="SOURCE" refId="99" navigable="false">      
+      <attribute id="195" name="service"/>      
+      <multiplicity id="196" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="89" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="197">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="198" name="qnaService"/>      
+      <multiplicity id="199" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="66" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="200">    
+    <end type="SOURCE" refId="112"/>    
+    <end type="TARGET" refId="28"/>  
+  </realization>  
+  <association id="201">    
+    <end type="SOURCE" refId="95" navigable="false">      
+      <attribute id="202" name="member_Service"/>      
+      <multiplicity id="203" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="204">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="205" name="service"/>      
+      <multiplicity id="206" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="207">    
+    <end type="SOURCE" refId="82" navigable="false">      
+      <attribute id="208" name="episodeDao"/>      
+      <multiplicity id="209" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="210">    
+    <end type="SOURCE" refId="48" navigable="false">      
+      <attribute id="211" name="fcdao"/>      
+      <multiplicity id="212" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="213">    
+    <end type="SOURCE" refId="75"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <association id="214">    
+    <end type="SOURCE" refId="93" navigable="false">      
+      <attribute id="215" name="wt_imageService"/>      
+      <multiplicity id="216" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="70" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="217">    
+    <end type="SOURCE" refId="56" navigable="false">      
+      <attribute id="218" name="serivce"/>      
+      <multiplicity id="219" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="220">    
+    <end type="SOURCE" refId="67" navigable="false">      
+      <attribute id="221" name="adminService"/>      
+      <multiplicity id="222" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="65" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="223">    
+    <end type="SOURCE" refId="101" navigable="false">      
+      <attribute id="224" name="uldao"/>      
+      <multiplicity id="225" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="226">    
+    <end type="SOURCE" refId="96"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="227">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="66"/>  
+  </realization>  
+  <realization id="228">    
+    <end type="SOURCE" refId="100"/>    
+    <end type="TARGET" refId="46"/>  
+  </realization>  
+  <realization id="229">    
+    <end type="SOURCE" refId="91"/>    
+    <end type="TARGET" refId="61"/>  
+  </realization>  
+  <association id="230">    
+    <end type="SOURCE" refId="60" navigable="false">      
+      <attribute id="231" name="dao"/>      
+      <multiplicity id="232" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="233">    
+    <end type="SOURCE" refId="62" navigable="false">      
+      <attribute id="234" name="memberService"/>      
+      <multiplicity id="235" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="236">    
+    <end type="SOURCE" refId="95" navigable="false">      
+      <attribute id="237" name="serviceE"/>      
+      <multiplicity id="238" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="239">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="240" name="freeSerivce"/>      
+      <multiplicity id="241" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="242">    
+    <end type="SOURCE" refId="67" navigable="false">      
+      <attribute id="243" name="main_AdvertisingService"/>      
+      <multiplicity id="244" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="245">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="53"/>  
+  </realization>  
+  <realization id="246">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="37"/>  
+  </realization>  
+  <association id="247">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="248" name="service"/>      
+      <multiplicity id="249" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="250">    
+    <end type="SOURCE" refId="71"/>    
+    <end type="TARGET" refId="107"/>  
+  </realization>  
+  <realization id="251">    
+    <end type="SOURCE" refId="92"/>    
+    <end type="TARGET" refId="22"/>  
+  </realization>  
+  <association id="252">    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="253" name="dao"/>      
+      <multiplicity id="254" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="255">    
+    <end type="SOURCE" refId="62"/>    
+    <end type="TARGET" refId="16"/>  
+  </realization>  
+  <association id="256">    
+    <end type="SOURCE" refId="86" navigable="false">      
+      <attribute id="257" name="service"/>      
+      <multiplicity id="258" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="87" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="259">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="77"/>  
+  </realization>  
+  <association id="260">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="261" name="webtoonDao"/>      
+      <multiplicity id="262" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="39" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="263">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="63"/>  
+  </realization>  
+  <realization id="264">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="76"/>  
+  </realization>  
+  <association id="265">    
+    <end type="SOURCE" refId="83" navigable="false">      
+      <attribute id="266" name="service"/>      
+      <multiplicity id="267" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="63" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="268">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="269" name="ulService"/>      
+      <multiplicity id="270" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="271">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="272" name="wt_service"/>      
+      <multiplicity id="273" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="64" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="274">    
+    <end type="SOURCE" refId="111" navigable="false">      
+      <attribute id="275" name="wt_starDao"/>      
+      <multiplicity id="276" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="277">    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <association id="278">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="279" name="certiService"/>      
+      <multiplicity id="280" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="281">    
+    <end type="SOURCE" refId="95" navigable="false">      
+      <attribute id="282" name="favorite_wtservice"/>      
+      <multiplicity id="283" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="284">    
+    <end type="SOURCE" refId="101" navigable="false">      
+      <attribute id="285" name="dao"/>      
+      <multiplicity id="286" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="77" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="287">    
+    <end type="SOURCE" refId="48" navigable="false">      
+      <attribute id="288" name="fc_replydao"/>      
+      <multiplicity id="289" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="76" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="290">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="291" name="hateService"/>      
+      <multiplicity id="292" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="89" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="293">    
+    <end type="SOURCE" refId="103"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <association id="294">    
+    <end type="SOURCE" refId="60" navigable="false">      
+      <attribute id="295" name="likedao"/>      
+      <multiplicity id="296" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="77" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="297">    
+    <end type="SOURCE" refId="57"/>    
+    <end type="TARGET" refId="39"/>  
+  </realization>  
+  <realization id="298">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="72"/>  
+  </realization>  
+  <association id="299">    
+    <end type="SOURCE" refId="74" navigable="false">      
+      <attribute id="300" name="member_Service"/>      
+      <multiplicity id="301" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="302">    
+    <end type="SOURCE" refId="69" navigable="false">      
+      <attribute id="303" name="dao"/>      
+      <multiplicity id="304" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="305">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="306" name="main_AdvertisingService"/>      
+      <multiplicity id="307" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="308">    
+    <end type="SOURCE" refId="105" navigable="false">      
+      <attribute id="309" name="service"/>      
+      <multiplicity id="310" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="311">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="312" name="likeService"/>      
+      <multiplicity id="313" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="314">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="315" name="service"/>      
+      <multiplicity id="316" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="317">    
+    <end type="SOURCE" refId="62" navigable="false">      
+      <attribute id="318" name="dao"/>      
+      <multiplicity id="319" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="61" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="320">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="64"/>  
+  </realization>  
+  <realization id="321">    
+    <end type="SOURCE" refId="106"/>    
+    <end type="TARGET" refId="31"/>  
+  </realization>  
+  <association id="322">    
+    <end type="SOURCE" refId="106" navigable="false">      
+      <attribute id="323" name="memberDAO"/>      
+      <multiplicity id="324" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="78" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="325">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="326" name="dao"/>      
+      <multiplicity id="327" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="85" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="328">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="102"/>  
+  </realization>  
+  <association id="329">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="330" name="couponSerivce"/>      
+      <multiplicity id="331" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="46" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="332">    
+    <end type="SOURCE" refId="82" navigable="false">      
+      <attribute id="333" name="webtoon_ImageDao"/>      
+      <multiplicity id="334" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="107" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="335">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="336" name="adminDao"/>      
+      <multiplicity id="337" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="338">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="339" name="qnaService"/>      
+      <multiplicity id="340" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="66" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="341">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="342" name="webtoon_EpisodeDao"/>      
+      <multiplicity id="343" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="344">    
+    <end type="SOURCE" refId="67" navigable="false">      
+      <attribute id="345" name="wt_service"/>      
+      <multiplicity id="346" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="64" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="347">    
+    <end type="SOURCE" refId="100" navigable="false">      
+      <attribute id="348" name="dao"/>      
+      <multiplicity id="349" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="58" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="350">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="351" name="service"/>      
+      <multiplicity id="352" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="72" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="353">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="29"/>  
+  </realization>  
+  <association id="354">    
+    <end type="SOURCE" refId="73" navigable="false">      
+      <attribute id="355" name="webtoonService"/>      
+      <multiplicity id="356" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="64" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="357">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="85"/>  
+  </realization>  
+  <association id="358">    
+    <end type="SOURCE" refId="104" navigable="false">      
+      <attribute id="359" name="dao"/>      
+      <multiplicity id="360" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="76" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="361">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="30"/>  
+  </realization>  
+  <realization id="362">    
+    <end type="SOURCE" refId="69"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="363">    
+    <end type="SOURCE" refId="82"/>    
+    <end type="TARGET" refId="70"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

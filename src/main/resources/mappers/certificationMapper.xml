@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- cartMapper.xml -->
+<!-- 다른 mapper와 중복되지 않는 네임스페이스 기재 -->
+<mapper namespace="certi">
+
+<insert id="certiInsert">
+insert into certification values (#{uuid},#{email})
+</insert>
+
+<select id="certiCheck" resultType="int">
+select count(*) from certification where uuid=#{uuid} and email=#{email}
+</select>
+
+<delete id="certiDelete">
+delete from Certification where email=#{email}
+</delete>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

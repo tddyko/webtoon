@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- cartMapper.xml -->
+<!-- 다른 mapper와 중복되지 않는 네임스페이스 기재 -->
+<mapper namespace="freeboard_comment">
+
+<insert id="ucInsert">
+
+insert into ulboard_comment
+(idx,ulboard_idx,username,email,content) 
+values
+ (
+(select nvl(max(idx)+1,1) from ulboard_comment),#{ulboard_idx},#{username},
+#{email},#{content}
+)
+
+</insert>
+
+<select id="ucCount" resultType="int">
+select count(*) from ulboard_comment where ulboard_idx=#{ulboard_idx}
+</select>
+
+<select id="ucList" resultType="UcDTO">
+select *
+		from (
+		select A.*, rownum rn
+		from (
+		select m.idx,m.email,m.content,m.write_date,m.username
+		from ulboard_comment m
+		where m.ulboard_idx=#{ulboard_idx}
+		order by m.write_date desc
+		)A
+		)
+		where rn between #{start} and #{end}
+
+</select>
+
+<delete id="ucDelete">
+delete ulboard_comment where idx=#{idx}
+</delete>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

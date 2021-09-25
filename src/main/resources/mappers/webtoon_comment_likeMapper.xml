@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- cartMapper.xml -->
+<!-- 다른 mapper와 중복되지 않는 네임스페이스 기재 -->
+<mapper namespace="webtoon_comment_like">
+
+<insert id="wclInsert">
+insert into webtoon_comment_like(idx,m_idx,c_idx) values
+(
+(select nvl(max(idx)+1,1) from webtoon_comment_like)
+,#{m_idx},#{c_idx})
+</insert>
+
+<select id="wclCheck" resultType="int">
+select count(*) from webtoon_comment_like where c_idx=#{c_idx} and
+ m_idx=#{m_idx}
+</select>
+
+<delete id="wclDelete">
+delete webtoon_comment_like where c_idx=#{c_idx} and m_idx=#{m_idx}
+</delete>
+
+<select id="wclCount" resultType="int">
+select count(*) from webtoon_comment_like where c_idx=#{c_idx}
+</select>
+
+<delete id="wclDeleteAll">
+delete webtoon_comment_like where c_idx=#{idx}
+</delete>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

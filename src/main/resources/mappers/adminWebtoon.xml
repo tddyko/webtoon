@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- cartMapper.xml -->
+<!-- 다른 mapper와 중복되지 않는 네임스페이스 기재 -->
+<mapper namespace="adminWebtoon">
+	<select id="ad_weeklyList" resultType="WebtoonDTO">
+	select * from webtoon where
+		week=#{week} order by heart desc
+	</select>
+	
+	<select id="wt_update_one" resultType="WebtoonDTO">
+		select * from webtoon
+		where idx=#{idx}
+	</select>
+	
+
+	<update id="wt_update_confirm">
+		update webtoon set title=#{title},
+		category=#{category}, finish=#{finish}, image=#{image} , week=#{week}
+		, heart=#{heart} , summary=#{summary}, visibility=#{visibility}
+		where idx=#{idx}
+	</update>
+
+	<delete id="wt_delete">
+		delete webtoon where idx=#{idx}
+	</delete>
+
+	<insert id="wt_insert">
+		insert into webtoon values((select nvl(max(idx)+1,1)
+		from
+		webtoon),#{title},#{category},#{finish},#{image},#{week},#{heart},#{summary},#{visibility})
+	</insert>
+	
+	
+	<!-- webtoonEpisode  -->
+	
+	<select id="wt_EpisodeList" resultType="Webtoon_EpisodeDTO">
+	select e.* from webtoon d join webtoon_episode e on d.title=#{title} and e.title=#{title} order by no desc
+	</select>
+	
+	<insert id="wt_EpisodeInsert">
+		insert into webtoon_episode values((select nvl(max(idx)+1,1) from webtoon_episode),#{title},#{no},#{no_title},#{viewcount},#{star},#{write_date},#{image},#{visibility},#{cost},#{coin})	
+	</insert>
+	
+	<select id="wt_EpisodeUpdate" resultType="Webtoon_EpisodeDTO">
+		select * from webtoon_episode where idx=#{idx}	
+	</select>
+	
+	<update id="wt_EpisodeUpdateDo" >
+		update webtoon_episode set no=#{no},no_title=#{no_title},viewcount=#{viewcount},star=#{star},write_date=#{write_date},image=#{image},visibility=#{visibility},cost=#{cost}, coin=#{coin}  where idx=#{idx}
+	</update>
+	
+	<delete id="wt_EpisodeDelete">
+		delete webtoon_episode where idx=#{idx}
+	</delete>
+	
+	<update id="wt_EpisodeHitUp">
+	update webtoon_episode set viewcount=viewcount+1 where title=#{title} and no=#{no}
+	</update>
+	
+	<select id="wt_coin" resultType="int">
+	select coin from webtoon_episode where title=#{title} and no=#{no}
+	</select>
+	
+<!-- 	이미지 삽입 -->
+	<insert id="wt_ImageInsert">
+		insert into webtoon_image values((select nvl(max(idx)+1,1) from webtoon_image),#{title},#{no},#{image})	
+	</insert>
+	
+	<select id="wt_ImageUpdate" resultType="Webtoon_ImageDTO"  >
+		select * from webtoon_image where idx=#{idx}
+	</select>	
+	
+	<select id="wt_ImageImageList"  resultType="Integer">
+		select image from webtoon_image where title=#{title} and no=#{no} order by image asc
+	</select>
+	
+	<update id="wt_ImageUpdateDo">
+		update webtoon_image set image=#{image} where idx=#{idx}
+	</update>
+	
+	<delete id="wt_ImageDelete">
+		delete webtoon_image where idx=#{idx}
+	</delete>
+	
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

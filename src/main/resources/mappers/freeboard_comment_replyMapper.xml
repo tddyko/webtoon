@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- cartMapper.xml -->
+<!-- 다른 mapper와 중복되지 않는 네임스페이스 기재 -->
+<mapper namespace="freeboardcommentreply">
+
+<select id="fc_replyCount" resultType="int">
+select count(*) from freeboard_comment_reply where fc_idx=#{fc_idx}
+</select>
+
+<insert id="fc_replyInsert">
+insert into freeboard_comment_reply
+(idx,fc_idx,username,email,content) 
+values
+ (
+(select nvl(max(idx)+1,1) from freeboard_comment_reply),#{fc_idx},#{username},
+#{email},#{content}
+)
+</insert>
+
+<select id="fc_replyList" resultType="Fc_replyDTO">
+<!-- select * -->
+<!-- 		from ( -->
+<!-- 		select A.*, rownum rn -->
+<!-- 		from ( -->
+<!-- 		select * -->
+<!-- 		from freeboard_comment_reply m -->
+<!-- 		where m.fc_idx=#{fc_idx} -->
+<!-- 		order by m.write_date desc -->
+<!-- 		)A -->
+<!-- 		) -->
+<!-- 		where rn between #{start} and #{end}; -->
+select * from freeboard_comment_reply where fc_idx=#{fc_idx} order by idx
+</select>
+
+<delete id="fc_replyDelete">
+delete freeboard_comment_reply where idx=#{idx}
+</delete>
+
+<delete id="fc_replyDeleteAll">
+delete freeboard_comment_reply where fc_idx=#{idx}
+</delete>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
